@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ibm.analytics.optim</groupId>
+		<artifactId>dd-processor</artifactId>
+		<version>1.0-master-b1087</version>
+		<relativePath>../pom.xml</relativePath> <!-- if locally found, take it -->
+	</parent>
 	<artifactId>api_java_client</artifactId>
 
 	<packaging>jar</packaging>
@@ -45,6 +51,7 @@
 						</goals>
 						<configuration>
 							<file>${project.build.directory}/${project.artifactId}-${project.version}.jar</file>
+							<javadoc>${project.build.directory}/${project.artifactId}-${project.version}-javadoc.jar</javadoc>
 							<url>file://${project.build.directory}/mvn-artifact-repo</url>
 							<groupId>${project.groupId}</groupId>
 							<artifactId>${project.artifactId}</artifactId>
