@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.ibm.analytics.optim</groupId>
-		<version>>1.0.0</version>
+		<version>1.0.0</version>
 	</parent>
 	<artifactId>api_java_client</artifactId>
 
