@@ -6,9 +6,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ibm.analytics.optim</groupId>
 	<artifactId>api_java_client</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>IBM Decision Optimization Java API</description>
 	<properties>
-		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 </project>
